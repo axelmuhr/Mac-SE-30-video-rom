@@ -1,0 +1,1 @@
+asm -w 'mySE30rom.a'link 'mySE30rom.a.o' -o mySE30rom.crccrcPatch mySE30rom.crcdata mySE30rom.crc mySE30rom.bindelete -y -i mySE30rom.crc 'mySE30rom.a.o'
